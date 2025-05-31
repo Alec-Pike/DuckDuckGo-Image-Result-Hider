@@ -12,4 +12,5 @@ A bookmarklet that hides DuckDuckGo image results from any sites you specify!
 2. *Without leaving the page,* go into your bookmarks and click the one with the image result hider code.
 3. A message should pop up saying how many results were blocked.
 4. When you close the popup, all your undesired image results should be gone.
+
 NOTE: When you reload the page or the page loads more images, you will need to run the code again. 
