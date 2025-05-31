@@ -5,7 +5,7 @@ javascript:(function() {
 	var numHidden = 0;
 	figs.forEach(figure => {
 		const textContent = figure.textContent || figure.innerText;
-		if (keywords.some(keyword => textContent.includes(keyword))) {
+		if (keywords.some(keyword => textContent.toLowerCase().includes(keyword.toLowerCase()))) {
 			figure.style.display = 'none';
 			numHidden++;
 		}
